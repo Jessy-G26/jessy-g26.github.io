@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes Page</title>
+
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+      <!--
+      Bootstrap
+      icon
+      --
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="classes.css" />
+  </head>
+
+  <body>
+    <!-- ====================================NAVBAR======================================== -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand" href="index.html"
+            ><img src="image/logo.png" alt="" width="30" height="24
+            class="d-inline-block align-top" /> PowerUp<span>Girls</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <button class="btn btn-outline-secondary" type="submit">
+                Get Quote
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ====================================MAIN SECTION======================================= -->
+
+    <section class="second">
+      <div class="container-second text-white py-5 text-center">
+        <div class="row py-3">
+          <div class="col-lg-12">
+            <p class="m-0">GYM FITNESS CLUB</p>
+            <h1 class="m-0">OUR CLASSES</h1>
+            <button class="btn1 mt-4">JOIN US</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================BODY====================================== -->
+    <div class="flip-main">
+      <section class="class pb-5">
+        <div class="container text-center">
+          <h2 class="display-6">WE GOT YOU!</h2>
+          <p class="program">
+            We offer all sorts of group classes that can help you burn those
+            calories and get toned. <br />
+            You’ll find a range of interesting classes, from yoga to
+            strength-training, to an exciting circuit training. <br />
+            You also have the option to get a personal trainer if you really
+            want to get serious about your fitness journey.
+          </p>
+        </div>
+      </section>
+
+      <div class="container-flip">
+        <div class="row row-cols-1 row-cols-md-3">
+          <!-- flip card start -->
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="image/boxing.jpg" alt="flip-card" />
+                  <div><h3 class="inner">BOXING</h3></div>
+                </div>
+                <div class="flip-card-back">
+                  <div class="text">
+                    <h3>BOXING</h3>
+                    <p class="train">
+                      Accompanied by music, our workout focuses on building
+                      fundamentals through a combination of boxing drills, heavy
+                      bag work and off-the-bag exercises.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- flip card end -->
+          <!-- flip card start -->
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="image/circuit.jpg" alt="flip-card" />
+                  <div><h3 class="inner">CIRCUIT</h3></div>
+                </div>
+                <div class="flip-card-back">
+                  <div class="text">
+                    <h3>CIRCUIT</h3>
+                    <p class="train">
+                      It is an extensive training class aimed to help your body
+                      work at maximum load from the start to the end of your
+                      workout to gain the best results faster.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- flip card end -->
+          <!-- flip card start -->
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="image/pilates.jpg" alt="flip-card" />
+                  <div><h3 class="inner">PILATES</h3></div>
+                </div>
+                <div class="flip-card-back">
+                  <div class="text">
+                    <h3>PILATES</h3>
+                    <p class="train">
+                      Safe, effective and very energetic range of group classes
+                      incorporating functional movement and a dynamic flow of
+                      exercises that are set to music!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- flip card end -->
+        </div>
+        <!-- </div>
+  </div> -->
+
+        <!-- 2nd batch flip-card -->
+        <!-- <div class="flip-main">
+          <div class="container"> -->
+        <div class="row row-cols-1 row-cols-md-3">
+          <!-- flip card start -->
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="image/spin.jpg" alt="flip-card" />
+                  <div><h3 class="inner">SPIN</h3></div>
+                </div>
+                <div class="flip-card-back">
+                  <div class="text">
+                    <h3>SPIN</h3>
+                    <p class="train">
+                      The members of Spin Class use the stationary bike which
+                      imitates the real world bicycle obstacle course to help
+                      you burn more than 500 calories per class.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- flip card end -->
+          <!-- flip card start -->
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="image/yoga.jpg" alt="flip-card" />
+                  <div><h3 class="inner">YOGA</h3></div>
+                </div>
+                <div class="flip-card-back">
+                  <div class="text">
+                    <h3>YOGA</h3>
+                    <p class="train">
+                      Yoga is perfect for everyone regardless of their fitness
+                      level. Start yoga classes and improve your balance,
+                      strength, and flexibility. Start or end your day with a
+                      yoga class!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- flip card start -->
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="image/weight.jpg" alt="flip-card" />
+                  <div><h3 class="inner">STRENGTH</h3></div>
+                </div>
+                <div class="flip-card-back">
+                  <div class="text">
+                    <h3>STRENGTH</h3>
+                    <p class="train">
+                      It is a high-strength training class that uses
+                      barbells/cardio to get maximum results. Please consult our
+                      managers and your therapist before signing up for this
+                      program.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- flip card end -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================PRICING======================================= -->
+    <div class="container text-center">
+      <h2 class="display-4">PLANS</h2>
+      <p class="plan">Choose a pricing plan which suits your fitness goals.</p>
+    </div>
+
+    <div class="container text-center pb-5">
+      <div class="row row-cols-1 row-cols-md-3">
+
+        <div class="col">
+          <div class="card shadow-lg">
+            <div class="card-header"><h4>BLOSSOM</h4></div>
+            <div class="card-body">
+              <h1 class="my-0 font-weight-normal">
+                $249 <small class="text-muted">/month</small>
+              </h1>
+              <h5 class="text-muted">Unlimited Access</h5>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Yoga and pool</li>
+                <li>Any fitness programs</li>
+                <li>-20% on additional services</li>
+                <li>5 personal training sessions</li>
+              </ul>
+              <button class="btn1">Select Plan</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-lg">
+            <div class="card-header"><h4>BUBBLES</h4></div>
+            <div class="card-body">
+              <h1 class="my-0 font-weight-normal">
+                $160 <small class="text-muted">/month</small>
+              </h1>
+              <h5 class="text-muted">10 Classes</h5>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Any fitnes program</li>
+                <li>-15% on additional services</li>
+                <li>-%15 per each extra training</li>
+                <li>No individual session</li>
+              </ul>
+              <button class="btn1">Select Plan</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-lg">
+            <div class="card-header"><h4>BUTTERCUP</h4></div>
+            <div class="card-body">
+              <h1 class="my-0 font-weight-normal">
+                $12 <small class="text-muted">/training</small>
+              </h1>
+              <h5 class="text-muted">2-hour training</h5>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Full access to the gym</li>
+                <li>Open from 8am to 10pm</li>
+                <li>50+ gym machinesg</li>
+                <li>-10% on additional services</li>
+              </ul>
+              <button class="btn1">Select Plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================FOOTER======================================= -->
+
+<section class="footer pt-3">
+    <div class="container pt-5 mb-0">
+      <div class="row py-3">
+        <div class="col-lg-4 col-xs-12">
+          <h4>POWERUP<span>GIRLS</span></h4>
+          <p class="pr-5">We are a fitness club in PH with modern gym machines and group programs. Start small by doing it right.</p>
+           <ul class="social">
+             <li><i class="bi bi-facebook"></i></li>
+             <li><i class="bi bi-messenger"></i></li>
+             <li><i class="bi bi-tiktok"></i></li>
+             <li><i class="bi bi-instagram"></i></li>
+          </ul>
+        </div>
+  
+      <div class="link col-lg-2 col-xs-12">
+        <h4 class="mt-lg-0 mt-sm-2">QUICK LINKS</h4>
+        <ul class="m-0 p-0">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html"></a>Contact</li>
+        </ul>
+      </div>
+  
+      <div class="location col-lg-3 col-xs-12">
+        <h4 class="mt-lg-0 mt-sm-3">LOCATION</h4>
+        <p><i class="bi bi-pin-map">Reyes Street, Sta. Cruz, Manila, PH</i></p>
+        <p><i class="bi bi-telephone"> +63(2)7314153</i></p>
+        <p><i class="bi bi-envelope"> fitness@powerupgirls.com</i></p>
+      </div>
+  
+      <div class="search col-lg-3 col-xs-12">
+        <h4 class="mt-lg-0 mt-sm-3">SUBSCRIBE</h4>
+        <p>Don't miss to subscribe to our news feed, kindly fill the form below.</p>
+        <div class="subscribe-form">
+          <form action="#">
+            <input type="text" placeholder="Email Address">
+            <button><i class="bi bi-send"></i></button>
+          </form>
+        </div>
+      </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="copyright text-center">
+        <p class="pt-3">All Rights Reserved PowerUpGirls © 2022</p>
+      </div>
+    </div>
+  </div>
+  </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

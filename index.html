@@ -12,74 +12,77 @@
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
-      <!--
-      Google
-      Fonts
-      --
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+
+  <!-- Bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- Style sheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Start of NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid px-4">
-        <a class="navbar-brand" href="#"
-          ><h2>PowerUp<span>Girls</span></h2></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Classes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Contact</a>
-            </li>
-          </ul>
-          <form class="d-flex p">
-            <button class="btn btn-outline-secondary" type="submit">
-              Sign in
-            </button>
-          </form>
+    <!-- ====================================NAVBAR======================================== -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="image/logo.png"
+              alt=""
+              width="30"
+              height="24 class="d-inline-block alignn-top"
+            />
+            PowerUp<span>Girls</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <button class="btn btn-outline-secondary" type="submit">
+                Get Quote
+              </button>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-
-    <!-- ================================main section============================= -->
+      </nav>
+    </header>
+    <!-- ====================================MAIN SECTION======================================== -->
     <section class="main">
       <div class="container text-white py-5">
         <div class="row py-3">
-          <div class="col-lg-10">
+          <div class="col-lg-12">
             <p class="m-0">GYM FITNESS CLUB</p>
-            <h1 class="m-0">
-              <span>Building Confidence</span> <br />
+            <h1 class="m-0"> <span>1% Better</span> <br />
               One Day <br />
               at a Time.
             </h1>
@@ -89,7 +92,7 @@
       </div>
     </section>
 
-    <!-- ================================details============================= -->
+    <!-- ====================================EQUIPMENT======================================== -->
     <section class="details">
       <div class="container">
         <div class="row">
@@ -123,7 +126,7 @@
                 <h5 class="card-title">OPEN FOR ANYONE</h5>
                 <p class="card-text py-3">
                   Whatever your fitness level is, you can attend our fitness
-                  classes at any time.
+                  classes that will benefit you the most.
                 </p>
                 <a href="#">MORE DETAILS</a>
               </div>
@@ -135,7 +138,7 @@
                 <h5 class="card-title">FLEXIBLE PRICES</h5>
                 <p class="card-text py-3">
                   You can select a training plan, instructor, and schedule
-                  suitable for you.
+                  that is suitable for you and your schedule.
                 </p>
                 <a href="#">MORE DETAILS</a>
               </div>
@@ -144,5 +147,229 @@
         </div>
       </div>
     </section>
+    <!-- ====================================MISSION STATEMENT======================================== -->
+    <section class="mission py-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-6 mb-3">
+            <img src="image/mission.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="pb-3">
+              HELPING <span>PINAYS</span><br />
+              REALIZE THEIR FULL POTENTIAL <br>
+              BY PROVIDING FITNESS FOR <br>
+              ALL THEIR NEEDS
+            </h2>
+            <p id="mission" style="text-align: justify">
+              Whether your goal is to be extremely fit while balancing family
+              life and work, or to climb the highes mountain, Power Up Girls is
+              the catalyst to get you there. We believe in hard work, community,
+              and progress. Come try a free session and see why FitB is the
+              place to help you reach your fitness goals!
+            </p>
+
+            <p id="mission" style="text-align: justify">Programs are designed to develop physical and mental abilities that far exceed your expectations. We believe in blending researched-based principles and techniques with state-of-the-art software analysis and coaching methods that allow you to reach your full potential. Whether your goal is to complete your first 5K race or to make it to the podium at a triathlon; we will work diligently to design a program that will help you reach your goals.</p>
+            <p id="mission" style="text-align: justify">
+           Power Up Girls was conceived as a means to the end. Our coaches have experience in training professionals in a variety of demanding sports.
+            </p>
+            <button class="btn1 mt-4">JOIN US</button>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+    <!-- ====================================TRAINERS======================================== -->
+    <section class="container-fluid">
+      <div class="container-coaches">
+        <div class="col-12 text-center">
+          <h2 class="display-6"><b>OUR TRAINERS</b></h2>
+          <p class="trainer">Everyone has a different fitness goal. Our trainers are here to help you meet and break them. <br>
+            But it’s not just about getting you fit. Our trainers will help you unlock your full fitness potential. <br> 
+            With the right workout, you’ll find yourself moving, and even standing better.</p>
+        </div>
+      </div><hr class="solid">
+  
+      <div class="row pt-3">
+        <div class="col-12 col-sm-10 offset-sm-1">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <div class="card">
+                <img src="image/coach4.jpg" alt="coach" />
+                <div class="card-body text-center">
+                  <h5><b>Ana Reyes</b></h5>
+                  <p>Certifications: Muscle Activation Level 1, USAW, and CrossFit Judge. Specializing in Weight Loss.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="card">
+                <img src="image/coach2.jpg" alt="coach" />
+                <div class="card-body text-center">
+                  <h5><b>Bea Santos</b></h5>
+                  <p>Certifications: Certifications: Certified CPR/AED, Specializing in Strength Training, Olympic Lifting.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="card">
+                <img src="image/coach3.jpg" alt="coach" />
+                <div class="card-body text-center">
+                  <h5><b>Mary Cruz</b></h5>
+                  <p>Certifications: Certified CPR/AED, CrossFit L1, USAW, and CrossFit Judge, Specializes in Weight Loss.</p>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- ====================================TESTIMONIALS======================================= -->
+    <section class="container-fluid py-5">
+      <div class="container py-3">
+        <div class="col-12 text-center">
+          <h2 class="display-6"><b>WHAT OUR CLIENT SAYS</b></h2>
+          <p class="feedback">We are very fortunate to have formed excellent partnerships with many of our clients. <br>
+            And we’ve formed more than just working relationships with them; we have formed true friendships. <br>
+            Here’s what they’re saying about us.
+          </p>
+        </div>
+      </div>
+      <hr class="solid">
+  
+    <div class="container mt-5 mb-5">
+    
+      <div class="row g-2">
+          <div class="col-md-4">
+              <div class="card p-3 text-center px-4">
+                  
+                  <div class="user-image">
+                      
+              <img src="image/T1.jpg" class="rounded-circle" width="80"
+                      >
+                      
+                  </div>
+                  
+                  <div class="user-content">
+                      
+                      <h5 class="mb-0">Stephanie Rigor</h5>
+                      <h6>Quezon City</h6>
+                      <p>started Fitness Within’s Remote Coaching over 2 months ago. I have lost some weight, gotten on a healthy exercise and meal schedule and feel great about myself.  The workouts kick your butt. </p>
+                      
+                  </div>
+            
+              </div>
+          </div>
+          
+          <div class="col-md-4">
+              
+              <div class="card p-3 text-center px-4">
+                  
+                  <div class="user-image">
+                      
+              <img src="image/T2.jpg" class="rounded-circle" width="80"
+                      >
+                      
+                  </div>
+                  
+                  <div class="user-content">
+                      
+                      <h5 class="mb-0">Erica Smith</h5>
+                      <h6>Makati City</h6>
+                      <p>Since joining Fitness Within one year ago, I have become stronger and I have lost 38lbs.  The workouts are always different, hard and fun! </p>
+                      
+                  </div>
+                  
+                  
+              </div>
+              
+          </div>
+          
+          <div class="col-md-4">
+              
+              <div class="card p-3 text-center px-4">
+                  
+                  <div class="user-image">
+                      
+              <img src="image/T3.jpg" class="rounded-circle" width="80"
+                      >
+                      
+                  </div>
+                  
+                  <div class="user-content">
+                      
+                      <h5 class="mb-0">Veronica Guzman</h5>
+                      <h6>Bacolod City</h6>
+                      <p>I have been training at Fitness Within for 2 years.  I look forward to coming into the studio because I know that I will get a GREAT WORKOUT!</p>
+                      
+                  </div>
+                  
+              </div>
+              
+          </div>
+          
+          
+      </div>
+      
+  </div>
+</section>
+    <!-- ====================================FOOTER======================================= -->
+<section class="footer pt-3">
+  <div class="container pt-5 mb-0">
+    <div class="row py-3">
+      <div class="col-lg-4 col-xs-12">
+        <h4>POWERUP<span>GIRLS</span></h4>
+        <p class="pr-5">We are a fitness club in PH with modern gym machines and group programs. Start small by doing it right.</p>
+         <ul class="social">
+           <li><i class="bi bi-facebook"></i></li>
+           <li><i class="bi bi-messenger"></i></li>
+           <li><i class="bi bi-tiktok"></i></li>
+           <li><i class="bi bi-instagram"></i></li>
+        </ul>
+      </div>
+
+    <div class="link col-lg-2 col-xs-12">
+      <h4 class="mt-lg-0 mt-sm-2">QUICK LINKS</h4>
+      <ul class="m-0 p-0">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="location col-lg-3 col-xs-12">
+      <h4 class="mt-lg-0 mt-sm-3">LOCATION</h4>
+      <p><i class="bi bi-pin-map">Reyes Street, Sta. Cruz, Manila, PH</i></p>
+      <p><i class="bi bi-telephone"> +63(2)7314153</i></p>
+      <p><i class="bi bi-envelope"> fitness@powerupgirls.com</i></p>
+    </div>
+
+    <div class="search col-lg-3 col-xs-12">
+      <h4 class="mt-lg-0 mt-sm-3">SUBSCRIBE</h4>
+      <p>Don't miss to subscribe to our news feed, kindly fill the form below.</p>
+      <div class="subscribe-form">
+        <form action="#">
+          <input type="text" placeholder="Email Address">
+          <button><i class="bi bi-send"></i></button>
+        </form>
+      </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="copyright text-center">
+      <p class="pt-3">All Rights Reserved PowerUpGirls © 2022</p>
+    </div>
+  </div>
+</div>
+</section>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>

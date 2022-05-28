@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: #1d0e15;
+  }
+  
+h2 {
+      color: #E5924E;
+      font-weight: 800;
+  }
+
+hr{
+    border-top: #E57523 5px solid;
+    
+}
+/* ===================================NAVBAR================================ */
+.navbar{
+    background-color: black;
+}
+.navbar .navbar-brand{
+    color: rgb(236, 83, 83);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .navbar-brand span{
+    color: #E5924E;
+}
+.navbar .navbar-brand:hover{
+    color: white;
+}
+
+.navbar .navbar-nav a{
+    color: gray;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+.navbar .navbar-nav a:hover{
+    color:rgb(236, 83, 83);
+  }
+
+.navbar .navbar-toggler{
+    background-color: rgb(236, 83, 83);
+}
+.nav-item {
+    padding: 20px;
+}
+
+/* ===================================BODY================================ */
+.background-img{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(image/bg3.jpg)no-repeat;
+    background-size:cover;
+    height: 110vh;
+	overflow-x: hidden;
+}
+
+
+.btn1{
+    height:55px ;
+    width: 140px;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    transition: 1s;
+}
+.btn1:hover{
+    background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+    transition: all 1s;
+}
+.sched h1{
+    color:rgb(236, 83, 83) ;
+    font-weight: 800;
+}
+.sched p , .time{
+   color: white;
+}
+.time{
+    font-size: 25px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.time h2{
+    color:#E57523;
+}
+
+.time:hover{
+    color: rgb(236, 83, 83);
+    transition: all 0.4s;
+    cursor: pointer;
+    top: -10px;
+}
+/* ===================================FOOTER================================ */
+.footer{
+    background-color:black;
+    color: grey;
+}
+.social{
+    padding:0;
+}
+h4{
+padding: 15px 0px;
+font-weight: 800;
+color: #E57523;
+}
+
+.social{
+    padding-top: 5px;
+    font-size:24px ;
+}
+.social li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0cm;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+.social li:hover{
+    color: rgb(236, 83, 83);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.link ul{
+    list-style: none;
+}
+.link li a{
+    color: grey;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.link li a:hover{
+    color: rgb(236, 83, 83);
+    padding-left: 5px;
+    transform: all 0.5s;
+}
+.location{
+    font-size: 15px;
+}
+
+subscribe-form{
+position: relative;
+overflow: hidden;
+    
+}
+.subscribe-form input{
+    width:70%;
+    background-color: transparent;
+    color: grey;
+    border-color: #E57523;
+}
+
+.subscribe-form button{
+    border-color: #E57523;
+    background-color: transparent;
+    color: grey;
+}
+.copyright{
+    background-color: transparent;
+}
+

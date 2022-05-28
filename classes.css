@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: #1d0e15;
+  }
+  
+h2 {
+      color: #E5924E;
+  }
+
+hr{
+    color:#E57523 ;
+}
+
+/* ===================================NAVBAR================================ */
+.navbar{
+    background-color: black;
+ }
+.navbar .navbar-brand{
+    color: rgb(236, 83, 83);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .navbar-brand span{
+    color: #E5924E;
+}
+.navbar .navbar-brand:hover{
+    color: white;
+}
+
+.navbar .navbar-nav a{
+    color: gray;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+.navbar .navbar-nav a:hover{
+    color:rgb(236, 83, 83);
+  }
+
+.navbar .navbar-toggler{
+    background-color: rgb(236, 83, 83);
+}
+.nav-item {
+    padding: 20px;
+}
+
+/* =================SECOND============= */
+.second{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(image/bg2.jpg)no-repeat;
+    background-size:cover;
+    height:70vh;
+}
+.second h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+.btn1{
+    height:55px ;
+    width: 140px;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    transition: 1s;
+}
+.btn1:hover{
+    background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+    transition: all 1s;
+} 
+
+/* FLIP CARD */
+ 
+.program{
+ color: white;
+}
+.inner {
+background-color: white;
+text-align: center;
+}
+img{
+	max-width: 100%;
+	vertical-align: middle;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container-flip{
+	max-width: 900px;
+	margin:auto;
+}
+.flip-main{
+	min-height: 100vh;
+	padding: 100px 0;
+}
+.flip-main .flip-card{
+    flex:0 0 calc(33.33% - 30px);
+    margin:0 15px 30px;
+    perspective: 1000px;
+}
+.flip-main .flip-card-inner{
+	box-shadow: 0 0 10px white;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: all 1s ease;
+}
+.flip-main .flip-card-front img{
+	width: 100%;
+}
+.flip-main .flip-card-front,
+.flip-main .flip-card-back{
+	backface-visibility: hidden;
+}
+.flip-main .flip-card-back{
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+	position: absolute;
+	left:0;
+	top:0;
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transform: rotateY(180deg);
+}
+.flip-main .flip-card-back h3{
+	font-size: 24px;
+	color: #ffffff;
+	margin:0 0 5px;
+}
+.flip-main .flip-card-back p{
+	font-size: 16px;
+	color: #e9e9e9;
+	margin:0;
+}
+.flip-main .flip-card:hover .flip-card-inner{
+   transform: rotateY(180deg);
+}
+/* Pricing */
+.plan{
+    color: white;
+} 
+/* ===================================FOOTER================================ */
+.footer{
+    background-color:black;
+    color: grey;
+}
+.social{
+    padding:0;
+}
+h4{
+padding: 15px 0px;
+font-weight: 800;
+color: #E57523;
+}
+
+.social{
+    padding-top: 5px;
+    font-size:24px ;
+}
+.social li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0cm;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+.social li:hover{
+    color: rgb(236, 83, 83);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.link ul{
+    list-style: none;
+}
+.link li a{
+    color: grey;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.link li a:hover{
+    color: rgb(236, 83, 83);
+    padding-left: 5px;
+    transform: all 0.5s;
+}
+.location{
+    font-size: 15px;
+}
+
+subscribe-form{
+position: relative;
+overflow: hidden;
+    
+}
+.subscribe-form input{
+    width:70%;
+    background-color: transparent;
+    color: grey;
+    border-color: #E57523;
+}
+
+.subscribe-form button{
+    border-color: #E57523;
+    background-color: transparent;
+    color: grey;
+}
+.copyright{
+    background-color: transparent;
+}
